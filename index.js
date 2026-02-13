@@ -9,6 +9,7 @@ function sub(a,b){
 }
 
 function multiply(a, b){
+    if(a < 0 || b < 0) throw Error('No negative numbers allowed') 
     return a*b
 }
 
